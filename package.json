@@ -1,0 +1,27 @@
+{
+  "name": "electron_vue_vite",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./script/dev",
+    "release": "node ./script/release",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.5",
+    "esbuild-windows-64": "^0.15.5",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.3.3",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "electron": "^20.1.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "vite": "^3.0.4"
+  }
+}
